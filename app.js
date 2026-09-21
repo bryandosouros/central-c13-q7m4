@@ -113,12 +113,16 @@
     elements.updatedAt.textContent = validDate
       ? new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" }).format(generated)
       : "Horário indisponível";
-    elements.refreshPolicy.textContent = `Habbo a cada ${state.snapshot.refreshPolicy.habbo} · SYSTEM em cache por ${state.snapshot.refreshPolicy.system}`;
+    const profilePolicy = state.snapshot.refreshPolicy.systemProfiles || state.snapshot.refreshPolicy.system;
+    const voterPolicy = state.snapshot.refreshPolicy.systemVoterTitle || state.snapshot.refreshPolicy.habbo;
+    elements.refreshPolicy.textContent = `Habbo: ${state.snapshot.refreshPolicy.habbo} · Perfis SYSTEM: ${profilePolicy} · Títulos TSE: ${voterPolicy}`;
     elements.syncState.dataset.state = "ready";
     elements.syncLabel.textContent = validDate ? `Atualizado ${formatRelative(generated)}` : "Snapshot carregado";
 
     const { requestMetrics } = state.snapshot;
-    elements.footerSource.textContent = `Fonte: Habbo + SYSTEM · ${requestMetrics.habboRequests} leituras Habbo · ${requestMetrics.systemRequests} leituras SYSTEM`;
+    const tseHolders = state.snapshot.sourceStatus?.systemVoterCards?.holderCount;
+    const tseLabel = Number.isFinite(tseHolders) ? ` · TSE: ${formatNumber(tseHolders)} portadores` : "";
+    elements.footerSource.textContent = `Fonte: Habbo + SYSTEM${tseLabel} · ${requestMetrics.habboRequests} leituras Habbo · ${requestMetrics.systemRequests} leituras SYSTEM`;
   }
 
   function applyFilters() {
@@ -199,7 +203,7 @@
     const habboDeputy = createCheckCell("Deputado no Habbo", row.habbo.deputy);
     const habboVoter = createCheckCell("Título no Habbo", row.habbo.voterTitle);
     const systemParty = createCheckCell("Partido no SYSTEM", row.system.party, systemPartyTitle(row));
-    const systemVoter = createCheckCell("Título no SYSTEM", row.system.voterTitle, systemStatusTitle(row));
+    const systemVoter = createCheckCell("Título no TSE", row.system.voterTitle, systemStatusTitle(row));
 
     const result = document.createElement("td");
     result.className = "result-cell";
@@ -245,7 +249,7 @@
       habboDeputy: "Deputado Habbo",
       habboVoterTitle: "Título Habbo",
       systemParty: "Partido SYSTEM",
-      systemVoterTitle: "Título SYSTEM",
+      systemVoterTitle: "Título TSE",
     };
     const issues = [...row.audit.failed, ...row.audit.unknown].map((key) => labels[key]).filter(Boolean);
     if (!issues.length && row.audit.multipleParties) return "Atenção à filiação múltipla";
@@ -260,8 +264,8 @@
   }
 
   function systemStatusTitle(row) {
-    if (row.system.status === "not_found") return "Conta não encontrada no SYSTEM";
-    return row.system.voterTitle === null ? "SYSTEM indisponível nesta atualização" : row.system.voterTitle ? "Título localizado no SYSTEM" : "Título não localizado no SYSTEM";
+    if (row.system.voterTitleStatus !== "ok") return "Cadastro de carteirinhas do TSE indisponível nesta atualização";
+    return row.system.voterTitle ? "Título localizado entre os portadores do TSE" : "Título não localizado entre os portadores do TSE";
   }
 
   function renderError(error) {
