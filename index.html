@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Painel de auditoria dos eleitores da campanha Chocotone 13 no CN-RPG." />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="theme-color" content="#fffaf1" />
+    <title>Central Eleitoral · Chocotone 13</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="campaign-line" aria-hidden="true"><span></span><span></span><span></span></div>
+
+    <header class="brandbar">
+      <div class="brandbar__inner">
+        <a class="brand" href="./" aria-label="Central Eleitoral Chocotone 13">
+          <img src="./assets/chocotone13-logo-transparent.png" alt="Chocotone 13 Presidenta, vice Imperfeiita" />
+        </a>
+        <div class="brandbar__context">
+          <span class="context-label">CN-RPG</span>
+          <span class="context-divider" aria-hidden="true"></span>
+          <span>Central eleitoral</span>
+        </div>
+        <div class="sync-state" id="sync-state">
+          <span class="sync-state__dot" aria-hidden="true"></span>
+          <span id="sync-label">Carregando dados</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="titlebar" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Controle de elegibilidade</p>
+          <h1 id="page-title">Mapa de eleitores</h1>
+          <p class="titlebar__description">Uma visão única dos cinco requisitos de cada filiado.</p>
+        </div>
+        <div class="update-panel">
+          <div>
+            <span>Última consolidação</span>
+            <strong id="updated-at">—</strong>
+            <small id="refresh-policy">Habbo e SYSTEM em processamento</small>
+          </div>
+          <button id="reload-button" class="reload-button" type="button">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16 7a7 7 0 1 0 1 5m0-7v5h-5" /></svg>
+            Recarregar
+          </button>
+        </div>
+      </section>
+
+      <div id="global-message" class="global-message" role="status" aria-live="polite"></div>
+
+      <section class="overview" aria-label="Resumo da auditoria">
+        <article class="overview-card overview-card--total">
+          <div class="overview-card__label"><span class="overview-icon" aria-hidden="true">01</span><span>Eleitores monitorados</span></div>
+          <strong id="metric-total">—</strong>
+          <small>Contas administrativas excluídas</small>
+        </article>
+        <article class="overview-card">
+          <div class="overview-card__label"><span class="status-pin status-pin--success" aria-hidden="true"></span><span>Regularizados</span></div>
+          <strong id="metric-complete">—</strong>
+          <small>Todos os 5 requisitos</small>
+        </article>
+        <article class="overview-card">
+          <div class="overview-card__label"><span class="status-pin status-pin--danger" aria-hidden="true"></span><span>Com pendências</span></div>
+          <strong id="metric-pending">—</strong>
+          <small>Ao menos um requisito ausente</small>
+        </article>
+        <article class="overview-card">
+          <div class="overview-card__label"><span class="status-pin status-pin--warning" aria-hidden="true"></span><span>Não avaliados</span></div>
+          <strong id="metric-unknown">—</strong>
+          <small>Falha temporária no SYSTEM</small>
+        </article>
+        <article class="coverage-card">
+          <div class="coverage-card__top"><span>Cobertura dos aliados</span><strong id="metric-coverage">—%</strong></div>
+          <div class="coverage-bar" role="progressbar" aria-label="Cobertura dos requisitos entre os aliados" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="coverage-fill"></span></div>
+          <small id="coverage-caption">Aguardando consolidação</small>
+        </article>
+      </section>
+
+      <section class="workspace">
+        <aside class="filter-panel" aria-labelledby="filters-title">
+          <div class="filter-panel__heading">
+            <div><span class="section-kicker">Refinar lista</span><h2 id="filters-title">Filtros</h2></div>
+            <button id="clear-filters" type="button">Limpar</button>
+          </div>
+
+          <form id="filters" autocomplete="off">
+            <label class="field">
+              <span>Eleitor</span>
+              <div class="search-control">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg>
+                <input id="filter-search" type="search" placeholder="Nome ou ID público" />
+              </div>
+            </label>
+
+            <label class="field"><span>Partido</span><select id="filter-party"><option value="all">Todos os partidos</option></select></label>
+            <label class="field"><span>Bloco</span><select id="filter-side"><option value="all">Todos</option><option value="favor">A nosso favor</option><option value="oposicao">Oposição</option></select></label>
+            <label class="field"><span>Situação</span><select id="filter-status"><option value="all">Todas</option><option value="complete">Regularizado · 5/5</option><option value="pending">Com pendências</option><option value="habbo-pending">Pendência no Habbo</option><option value="system-pending">Pendência no SYSTEM</option><option value="unknown">Não avaliado</option><option value="multiple">Múltiplas filiações</option></select></label>
+          </form>
+
+          <div class="filter-panel__divider"></div>
+          <div class="legend" aria-label="Legenda">
+            <span class="section-kicker">Legenda</span>
+            <div><span class="legend-mark legend-mark--pass">✓</span><span><strong>Consta</strong><small>Requisito confirmado</small></span></div>
+            <div><span class="legend-mark legend-mark--fail">×</span><span><strong>Pendente</strong><small>Não localizado na fonte</small></span></div>
+            <div><span class="legend-mark legend-mark--unknown">—</span><span><strong>Não avaliado</strong><small>Fonte indisponível</small></span></div>
+          </div>
+
+          <p class="filter-panel__note">Os grupos partidários do Habbo formam a lista-mestra. O painel é atualizado de forma centralizada para proteger o SYSTEM.</p>
+        </aside>
+
+        <section class="data-panel" aria-labelledby="table-title">
+          <header class="data-panel__header">
+            <div><span class="section-kicker">Base consolidada</span><h2 id="table-title">Situação dos eleitores</h2></div>
+            <div class="results-meta"><strong id="result-count">—</strong><span>resultados</span></div>
+          </header>
+
+          <div class="table-wrap">
+            <table class="audit-table">
+              <thead>
+                <tr>
+                  <th scope="col">Eleitor</th>
+                  <th scope="col">Filiação</th>
+                  <th scope="col" class="source-heading"><span>Habbo</span><small>Deputado</small></th>
+                  <th scope="col" class="source-heading"><span>Habbo</span><small>Título</small></th>
+                  <th scope="col" class="source-heading source-heading--system"><span>SYSTEM</span><small>Partido</small></th>
+                  <th scope="col" class="source-heading source-heading--system"><span>SYSTEM</span><small>Título</small></th>
+                  <th scope="col">Resultado</th>
+                </tr>
+              </thead>
+              <tbody id="audit-table-body">
+                <tr class="loading-row"><td colspan="7"><span class="spinner" aria-hidden="true"></span><strong>Carregando auditoria</strong><small>Preparando a base consolidada…</small></td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div id="empty-state" class="empty-state" hidden><strong>Nenhum resultado</strong><span>Altere os filtros para ampliar a busca.</span></div>
+
+          <footer class="table-footer">
+            <span id="page-summary">—</span>
+            <div class="pagination"><button id="previous-page" type="button" disabled>Anterior</button><button id="next-page" type="button" disabled>Próxima</button></div>
+          </footer>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><strong>Chocotone 13</strong><span>Central de controle eleitoral · CN-RPG</span></div>
+      <span id="footer-source">Fonte: Habbo + SYSTEM</span>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
