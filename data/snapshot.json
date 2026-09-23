@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-23T07:49:19.767Z",
+  "generatedAt": "2026-09-23T13:39:37.752Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,11 +64,11 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 78,
-    "systemProfileRequests": 77,
+    "systemRequests": 1,
+    "systemProfileRequests": 0,
     "systemCardRequests": 1,
-    "systemCacheHits": 0,
-    "systemFailures": 2
+    "systemCacheHits": 77,
+    "systemFailures": 1
   },
   "totals": {
     "electors": 77,
@@ -1149,7 +1149,7 @@
     {
       "uniqueId": "hhbr-b03ee7a5d423b7244fe93cfa38ce85d6",
       "name": "99-hiagO-99",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
@@ -2542,7 +2542,7 @@
     {
       "uniqueId": "hhbr-5f22ca2c8ba5774bf3e809637dda09c8",
       "name": "BookHero",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
