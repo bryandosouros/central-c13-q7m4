@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-26T21:14:57.780Z",
+  "generatedAt": "2026-09-27T00:37:48.597Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,11 +64,11 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 93,
-    "systemProfileRequests": 92,
+    "systemRequests": 1,
+    "systemProfileRequests": 0,
     "systemCardRequests": 1,
-    "systemCacheHits": 0,
-    "systemFailures": 2
+    "systemCacheHits": 92,
+    "systemFailures": 1
   },
   "totals": {
     "electors": 92,
@@ -165,7 +165,7 @@
     {
       "uniqueId": "hhbr-1737911ba1295d0e99182f61405c680b",
       "name": ":Goldboy.",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -616,7 +616,7 @@
     {
       "uniqueId": "hhbr-cadccb935108064e6958e55d2025ca99",
       "name": "HC",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PCO",
@@ -1518,7 +1518,7 @@
     {
       "uniqueId": "hhbr-a598457ebac5fb407fe7a14c64fdb053",
       "name": "Liipeh",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PL",
@@ -1558,7 +1558,7 @@
     {
       "uniqueId": "hhbr-1ac5ae8a6feb22edee56601537b3daa4",
       "name": "Nietzsched",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -1684,7 +1684,7 @@
     {
       "uniqueId": "hhbr-58a634dbbeb60699864ddda52e6106a8",
       "name": "Shirmenes",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PCO",
@@ -2096,7 +2096,7 @@
     {
       "uniqueId": "hhbr-8379472228f5065543b48bc03ae34e51",
       "name": "EmanuelFNC.",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -2337,7 +2337,7 @@
     {
       "uniqueId": "hhbr-9c50f57dda293b4bb450e6c969ff4cf0",
       "name": "-Imperfeiita-",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -2376,7 +2376,7 @@
     {
       "uniqueId": "hhbr-59fecbe8de8ba51837d264edb6902024",
       "name": "-KAHN-",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PT",
@@ -2415,7 +2415,7 @@
     {
       "uniqueId": "hhbr-366e25a53d8712b44af02f7784a4caab",
       "name": ",Yrsa",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
@@ -2727,7 +2727,7 @@
     {
       "uniqueId": "hhbr-68ec5e42d46f0fce9618b752e3fdeee8",
       "name": "BlockBall",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -2961,7 +2961,7 @@
     {
       "uniqueId": "hhbr-c99d5825520e21407e2d922689d22d16",
       "name": "Chooping!",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3039,7 +3039,7 @@
     {
       "uniqueId": "hhbr-93cc4854a6bef21adefa07d31457997a",
       "name": "HudsonSykes",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3117,7 +3117,7 @@
     {
       "uniqueId": "hhbr-1755417e37a75e784c0e2ed33b215f56",
       "name": "jaymerson05",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3195,7 +3195,7 @@
     {
       "uniqueId": "hhbr-83a1d5bf1fbccd009ff8f34a75c013a1",
       "name": "Jorge.Lemaire",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PT",
@@ -3234,7 +3234,7 @@
     {
       "uniqueId": "hhbr-61c16ce9d6728b0d421f76a8bd7dfb10",
       "name": "Kings_Suricatin",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PT",
@@ -3468,7 +3468,7 @@
     {
       "uniqueId": "hhbr-a4570f703e2d5fec372a94dc9595515b",
       "name": "pedrojonasz",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PT",
@@ -3741,7 +3741,7 @@
     {
       "uniqueId": "hhbr-bc74003a81318e1b5924733d3d266af1",
       "name": "Yayay2.0",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PCO",
