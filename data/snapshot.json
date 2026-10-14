@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-10-13T21:15:56.482Z",
+  "generatedAt": "2026-10-14T01:17:01.122Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,19 +64,19 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 1,
-    "systemProfileRequests": 0,
+    "systemRequests": 92,
+    "systemProfileRequests": 91,
     "systemCardRequests": 1,
-    "systemCacheHits": 90,
-    "systemFailures": 1
+    "systemCacheHits": 0,
+    "systemFailures": 2
   },
   "totals": {
-    "electors": 90,
+    "electors": 91,
     "complete": 0,
     "pending": 72,
-    "unknown": 90,
+    "unknown": 91,
     "multipleParties": 2,
-    "favor": 61,
+    "favor": 62,
     "opposition": 29
   },
   "rows": [
@@ -102,7 +102,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:04.588Z"
+        "checkedAt": "2026-10-14T01:15:32.405Z"
       },
       "audit": {
         "passed": 1,
@@ -143,7 +143,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:07.246Z"
+        "checkedAt": "2026-10-14T01:16:32.040Z"
       },
       "audit": {
         "passed": 1,
@@ -165,7 +165,7 @@
     {
       "uniqueId": "hhbr-8fe668f4d60a6a19576ecf37b18acff3",
       "name": ",Sar.",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -184,7 +184,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:04.897Z"
+        "checkedAt": "2026-10-14T01:16:29.982Z"
       },
       "audit": {
         "passed": 1,
@@ -206,7 +206,7 @@
     {
       "uniqueId": "hhbr-1737911ba1295d0e99182f61405c680b",
       "name": ":Goldboy.",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -225,7 +225,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:39.762Z"
+        "checkedAt": "2026-10-14T01:15:08.929Z"
       },
       "audit": {
         "passed": 1,
@@ -266,7 +266,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:10.678Z"
+        "checkedAt": "2026-10-14T01:14:41.162Z"
       },
       "audit": {
         "passed": 1,
@@ -307,7 +307,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:48.784Z"
+        "checkedAt": "2026-10-14T01:15:17.491Z"
       },
       "audit": {
         "passed": 1,
@@ -348,7 +348,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:29.234Z"
+        "checkedAt": "2026-10-14T01:15:55.974Z"
       },
       "audit": {
         "passed": 1,
@@ -389,7 +389,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:51.093Z"
+        "checkedAt": "2026-10-14T01:15:19.437Z"
       },
       "audit": {
         "passed": 1,
@@ -430,7 +430,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:09.042Z"
+        "checkedAt": "2026-10-14T01:15:36.584Z"
       },
       "audit": {
         "passed": 1,
@@ -473,7 +473,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:00.180Z"
+        "checkedAt": "2026-10-14T01:16:25.768Z"
       },
       "audit": {
         "passed": 1,
@@ -514,7 +514,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:37.986Z"
+        "checkedAt": "2026-10-14T01:16:04.199Z"
       },
       "audit": {
         "passed": 1,
@@ -555,7 +555,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:55.702Z"
+        "checkedAt": "2026-10-14T01:15:23.790Z"
       },
       "audit": {
         "passed": 1,
@@ -596,7 +596,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:06.879Z"
+        "checkedAt": "2026-10-14T01:15:34.379Z"
       },
       "audit": {
         "passed": 1,
@@ -637,7 +637,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:17.283Z"
+        "checkedAt": "2026-10-14T01:14:47.299Z"
       },
       "audit": {
         "passed": 1,
@@ -678,7 +678,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:46.697Z"
+        "checkedAt": "2026-10-14T01:15:15.262Z"
       },
       "audit": {
         "passed": 1,
@@ -719,7 +719,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:18.332Z"
+        "checkedAt": "2026-10-14T01:16:42.399Z"
       },
       "audit": {
         "passed": 1,
@@ -741,7 +741,7 @@
     {
       "uniqueId": "hhbr-cadccb935108064e6958e55d2025ca99",
       "name": "HC",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PCO",
@@ -760,7 +760,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:06.053Z"
+        "checkedAt": "2026-10-14T01:14:36.743Z"
       },
       "audit": {
         "passed": 1,
@@ -801,7 +801,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:02.503Z"
+        "checkedAt": "2026-10-14T01:15:30.294Z"
       },
       "audit": {
         "passed": 1,
@@ -842,7 +842,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:44.366Z"
+        "checkedAt": "2026-10-14T01:15:13.201Z"
       },
       "audit": {
         "passed": 1,
@@ -883,7 +883,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:58.097Z"
+        "checkedAt": "2026-10-14T01:16:23.551Z"
       },
       "audit": {
         "passed": 1,
@@ -905,7 +905,7 @@
     {
       "uniqueId": "hhbr-eaf82fb32c3b73a6635fa343677a4655",
       "name": "Mauryy",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -924,7 +924,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:26.332Z"
+        "checkedAt": "2026-10-14T01:14:55.870Z"
       },
       "audit": {
         "passed": 1,
@@ -965,7 +965,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:15.902Z"
+        "checkedAt": "2026-10-14T01:15:42.918Z"
       },
       "audit": {
         "passed": 1,
@@ -1006,7 +1006,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:13.504Z"
+        "checkedAt": "2026-10-14T01:15:40.919Z"
       },
       "audit": {
         "passed": 1,
@@ -1047,7 +1047,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:18.300Z"
+        "checkedAt": "2026-10-14T01:15:44.980Z"
       },
       "audit": {
         "passed": 1,
@@ -1088,7 +1088,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:21.635Z"
+        "checkedAt": "2026-10-14T01:14:51.582Z"
       },
       "audit": {
         "passed": 1,
@@ -1129,7 +1129,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:42.134Z"
+        "checkedAt": "2026-10-14T01:15:11.061Z"
       },
       "audit": {
         "passed": 1,
@@ -1170,7 +1170,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:02.527Z"
+        "checkedAt": "2026-10-14T01:16:27.978Z"
       },
       "audit": {
         "passed": 1,
@@ -1211,7 +1211,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:32.997Z"
+        "checkedAt": "2026-10-14T01:15:02.582Z"
       },
       "audit": {
         "passed": 1,
@@ -1252,7 +1252,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:28.535Z"
+        "checkedAt": "2026-10-14T01:14:58.125Z"
       },
       "audit": {
         "passed": 1,
@@ -1293,7 +1293,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:20.706Z"
+        "checkedAt": "2026-10-14T01:16:44.527Z"
       },
       "audit": {
         "passed": 1,
@@ -1334,7 +1334,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:35.322Z"
+        "checkedAt": "2026-10-14T01:15:04.601Z"
       },
       "audit": {
         "passed": 1,
@@ -1375,7 +1375,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:27.020Z"
+        "checkedAt": "2026-10-14T01:15:53.744Z"
       },
       "audit": {
         "passed": 1,
@@ -1416,7 +1416,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:27.400Z"
+        "checkedAt": "2026-10-14T01:16:50.568Z"
       },
       "audit": {
         "passed": 1,
@@ -1465,7 +1465,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:53.620Z"
+        "checkedAt": "2026-10-14T01:16:19.172Z"
       },
       "audit": {
         "passed": 2,
@@ -1505,7 +1505,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:13.991Z"
+        "checkedAt": "2026-10-14T01:16:38.418Z"
       },
       "audit": {
         "passed": 2,
@@ -1526,7 +1526,7 @@
     {
       "uniqueId": "hhbr-823b4ab658f4b231d0c0083bec6a7d0b",
       "name": ":.RICAM.:",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PL",
@@ -1545,7 +1545,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:34.048Z"
+        "checkedAt": "2026-10-14T01:16:56.986Z"
       },
       "audit": {
         "passed": 2,
@@ -1585,7 +1585,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:22.524Z"
+        "checkedAt": "2026-10-14T01:15:49.336Z"
       },
       "audit": {
         "passed": 2,
@@ -1625,7 +1625,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:29.515Z"
+        "checkedAt": "2026-10-14T01:16:52.837Z"
       },
       "audit": {
         "passed": 2,
@@ -1665,7 +1665,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:36.239Z"
+        "checkedAt": "2026-10-14T01:16:59.236Z"
       },
       "audit": {
         "passed": 2,
@@ -1707,7 +1707,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:51.480Z"
+        "checkedAt": "2026-10-14T01:16:16.959Z"
       },
       "audit": {
         "passed": 2,
@@ -1747,7 +1747,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:31.845Z"
+        "checkedAt": "2026-10-14T01:16:54.806Z"
       },
       "audit": {
         "passed": 2,
@@ -1789,7 +1789,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:11.703Z"
+        "checkedAt": "2026-10-14T01:16:36.372Z"
       },
       "audit": {
         "passed": 2,
@@ -1829,7 +1829,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:58.058Z"
+        "checkedAt": "2026-10-14T01:15:26.054Z"
       },
       "audit": {
         "passed": 2,
@@ -1871,7 +1871,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:15.155Z"
+        "checkedAt": "2026-10-14T01:14:45.174Z"
       },
       "audit": {
         "passed": 2,
@@ -1913,7 +1913,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:19.403Z"
+        "checkedAt": "2026-10-14T01:14:49.323Z"
       },
       "audit": {
         "passed": 2,
@@ -1955,7 +1955,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:23.918Z"
+        "checkedAt": "2026-10-14T01:14:53.839Z"
       },
       "audit": {
         "passed": 2,
@@ -1995,7 +1995,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:37.661Z"
+        "checkedAt": "2026-10-14T01:15:06.731Z"
       },
       "audit": {
         "passed": 2,
@@ -2035,7 +2035,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:31.412Z"
+        "checkedAt": "2026-10-14T01:15:58.002Z"
       },
       "audit": {
         "passed": 2,
@@ -2056,7 +2056,7 @@
     {
       "uniqueId": "hhbr-951e085bbca7223385522f6fc96b5ef6",
       "name": "Wolfies",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PCO",
@@ -2077,7 +2077,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:12.852Z"
+        "checkedAt": "2026-10-14T01:14:43.136Z"
       },
       "audit": {
         "passed": 2,
@@ -2119,52 +2119,13 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:30.167Z"
+        "checkedAt": "2026-10-14T01:14:00.324Z"
       },
       "audit": {
         "passed": 3,
         "total": 5,
         "failed": [
           "habboVoterTitle"
-        ],
-        "unknown": [
-          "systemVoterTitle"
-        ],
-        "complete": false,
-        "hasPending": true,
-        "hasUnknown": true,
-        "multipleParties": false
-      }
-    },
-    {
-      "uniqueId": "hhbr-bfcb1c0387c6ef95c015c0374047d5cd",
-      "name": "000carlos",
-      "online": false,
-      "parties": [
-        {
-          "code": "PT",
-          "label": "Partido dos Trabalhadores",
-          "side": "favor",
-          "groupId": "g-hhbr-f616c8d86b07941cfaa260b9d38a4dbb"
-        }
-      ],
-      "habbo": {
-        "deputy": true,
-        "voterTitle": true
-      },
-      "system": {
-        "status": "ok",
-        "partyCodes": [],
-        "party": false,
-        "voterTitle": null,
-        "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:18.797Z"
-      },
-      "audit": {
-        "passed": 3,
-        "total": 5,
-        "failed": [
-          "systemParty"
         ],
         "unknown": [
           "systemVoterTitle"
@@ -2199,7 +2160,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:11.220Z"
+        "checkedAt": "2026-10-14T01:15:38.702Z"
       },
       "audit": {
         "passed": 3,
@@ -2240,7 +2201,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:22.784Z"
+        "checkedAt": "2026-10-14T01:16:46.501Z"
       },
       "audit": {
         "passed": 3,
@@ -2281,7 +2242,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:16.165Z"
+        "checkedAt": "2026-10-14T01:16:40.428Z"
       },
       "audit": {
         "passed": 3,
@@ -2322,7 +2283,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:25.092Z"
+        "checkedAt": "2026-10-14T01:16:48.515Z"
       },
       "audit": {
         "passed": 3,
@@ -2342,7 +2303,7 @@
     {
       "uniqueId": "hhbr-7bd1cf42cd81fdee57ae5fdc690f098a",
       "name": "Cloe",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PDT",
@@ -2363,7 +2324,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:01.537Z"
+        "checkedAt": "2026-10-14T01:14:32.372Z"
       },
       "audit": {
         "passed": 3,
@@ -2402,7 +2363,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:16.532Z"
+        "checkedAt": "2026-10-14T01:13:47.692Z"
       },
       "audit": {
         "passed": 3,
@@ -2443,7 +2404,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:50.421Z"
+        "checkedAt": "2026-10-14T01:14:19.742Z"
       },
       "audit": {
         "passed": 3,
@@ -2484,7 +2445,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:24.773Z"
+        "checkedAt": "2026-10-14T01:15:51.511Z"
       },
       "audit": {
         "passed": 3,
@@ -2523,7 +2484,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:54.821Z"
+        "checkedAt": "2026-10-14T01:14:24.132Z"
       },
       "audit": {
         "passed": 3,
@@ -2564,7 +2525,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:03:09.424Z"
+        "checkedAt": "2026-10-14T01:16:34.238Z"
       },
       "audit": {
         "passed": 3,
@@ -2605,7 +2566,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:53.439Z"
+        "checkedAt": "2026-10-14T01:15:21.651Z"
       },
       "audit": {
         "passed": 3,
@@ -2644,7 +2605,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:33.674Z"
+        "checkedAt": "2026-10-14T01:16:00.116Z"
       },
       "audit": {
         "passed": 3,
@@ -2685,7 +2646,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:20.473Z"
+        "checkedAt": "2026-10-14T01:15:47.190Z"
       },
       "audit": {
         "passed": 3,
@@ -2726,7 +2687,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:34.743Z"
+        "checkedAt": "2026-10-14T01:14:04.677Z"
       },
       "audit": {
         "passed": 3,
@@ -2767,7 +2728,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:55.769Z"
+        "checkedAt": "2026-10-14T01:16:21.277Z"
       },
       "audit": {
         "passed": 3,
@@ -2808,7 +2769,48 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:37.060Z"
+        "checkedAt": "2026-10-14T01:14:06.787Z"
+      },
+      "audit": {
+        "passed": 3,
+        "total": 5,
+        "failed": [
+          "habboVoterTitle"
+        ],
+        "unknown": [
+          "systemVoterTitle"
+        ],
+        "complete": false,
+        "hasPending": true,
+        "hasUnknown": true,
+        "multipleParties": false
+      }
+    },
+    {
+      "uniqueId": "hhbr-96f36a7814c95b812c1037510742d1fb",
+      "name": "MarkinHazz",
+      "online": false,
+      "parties": [
+        {
+          "code": "PDT",
+          "label": "Partido Democrático Trabalhista",
+          "side": "favor",
+          "groupId": "g-hhbr-f37b14af8b3161af00844d48bfba6316"
+        }
+      ],
+      "habbo": {
+        "deputy": true,
+        "voterTitle": false
+      },
+      "system": {
+        "status": "ok",
+        "partyCodes": [
+          "PDT"
+        ],
+        "party": true,
+        "voterTitle": null,
+        "voterTitleStatus": "error",
+        "checkedAt": "2026-10-14T01:14:30.349Z"
       },
       "audit": {
         "passed": 3,
@@ -2849,7 +2851,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:41.463Z"
+        "checkedAt": "2026-10-14T01:14:11.068Z"
       },
       "audit": {
         "passed": 3,
@@ -2890,7 +2892,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:42.447Z"
+        "checkedAt": "2026-10-14T01:16:08.257Z"
       },
       "audit": {
         "passed": 3,
@@ -2929,7 +2931,7 @@
         "party": false,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:23.551Z"
+        "checkedAt": "2026-10-14T01:13:53.932Z"
       },
       "audit": {
         "passed": 3,
@@ -2970,7 +2972,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:30.914Z"
+        "checkedAt": "2026-10-14T01:15:00.367Z"
       },
       "audit": {
         "passed": 3,
@@ -3011,7 +3013,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:47.111Z"
+        "checkedAt": "2026-10-14T01:16:12.633Z"
       },
       "audit": {
         "passed": 3,
@@ -3024,6 +3026,44 @@
         ],
         "complete": false,
         "hasPending": true,
+        "hasUnknown": true,
+        "multipleParties": false
+      }
+    },
+    {
+      "uniqueId": "hhbr-bfcb1c0387c6ef95c015c0374047d5cd",
+      "name": "000carlos",
+      "online": false,
+      "parties": [
+        {
+          "code": "PT",
+          "label": "Partido dos Trabalhadores",
+          "side": "favor",
+          "groupId": "g-hhbr-f616c8d86b07941cfaa260b9d38a4dbb"
+        }
+      ],
+      "habbo": {
+        "deputy": true,
+        "voterTitle": true
+      },
+      "system": {
+        "status": "error",
+        "partyCodes": [],
+        "party": null,
+        "voterTitle": null,
+        "voterTitleStatus": "error",
+        "checkedAt": "2026-10-14T01:13:49.549Z"
+      },
+      "audit": {
+        "passed": 3,
+        "total": 5,
+        "failed": [],
+        "unknown": [
+          "systemParty",
+          "systemVoterTitle"
+        ],
+        "complete": false,
+        "hasPending": false,
         "hasUnknown": true,
         "multipleParties": false
       }
@@ -3058,7 +3098,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:43.633Z"
+        "checkedAt": "2026-10-14T01:14:13.155Z"
       },
       "audit": {
         "passed": 4,
@@ -3097,7 +3137,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:08.286Z"
+        "checkedAt": "2026-10-14T01:14:38.957Z"
       },
       "audit": {
         "passed": 4,
@@ -3136,7 +3176,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:39.150Z"
+        "checkedAt": "2026-10-14T01:14:08.876Z"
       },
       "audit": {
         "passed": 4,
@@ -3175,7 +3215,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:25.668Z"
+        "checkedAt": "2026-10-14T01:13:56.131Z"
       },
       "audit": {
         "passed": 4,
@@ -3214,7 +3254,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:44.819Z"
+        "checkedAt": "2026-10-14T01:16:10.385Z"
       },
       "audit": {
         "passed": 4,
@@ -3253,7 +3293,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:49.224Z"
+        "checkedAt": "2026-10-14T01:16:14.830Z"
       },
       "audit": {
         "passed": 4,
@@ -3292,7 +3332,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:45.902Z"
+        "checkedAt": "2026-10-14T01:14:15.388Z"
       },
       "audit": {
         "passed": 4,
@@ -3331,7 +3371,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:00.134Z"
+        "checkedAt": "2026-10-14T01:15:28.286Z"
       },
       "audit": {
         "passed": 4,
@@ -3370,7 +3410,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:01:03.763Z"
+        "checkedAt": "2026-10-14T01:14:34.648Z"
       },
       "audit": {
         "passed": 4,
@@ -3388,7 +3428,7 @@
     {
       "uniqueId": "hhbr-629caa293b83bf48aea2b8f27c7ea364",
       "name": "Chocotone",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
@@ -3409,7 +3449,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:21.216Z"
+        "checkedAt": "2026-10-14T01:13:51.765Z"
       },
       "audit": {
         "passed": 4,
@@ -3448,7 +3488,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:57.159Z"
+        "checkedAt": "2026-10-14T01:14:26.101Z"
       },
       "audit": {
         "passed": 4,
@@ -3487,7 +3527,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:52.486Z"
+        "checkedAt": "2026-10-14T01:14:21.887Z"
       },
       "audit": {
         "passed": 4,
@@ -3526,7 +3566,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:27.786Z"
+        "checkedAt": "2026-10-14T01:13:58.211Z"
       },
       "audit": {
         "passed": 4,
@@ -3565,7 +3605,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:35.737Z"
+        "checkedAt": "2026-10-14T01:16:02.100Z"
       },
       "audit": {
         "passed": 4,
@@ -3583,7 +3623,7 @@
     {
       "uniqueId": "hhbr-7d02c5806d576be6c691437f457111df",
       "name": "MalopRRN",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3604,7 +3644,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:48.149Z"
+        "checkedAt": "2026-10-14T01:14:17.547Z"
       },
       "audit": {
         "passed": 4,
@@ -3643,7 +3683,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:32.476Z"
+        "checkedAt": "2026-10-14T01:14:02.582Z"
       },
       "audit": {
         "passed": 4,
@@ -3661,7 +3701,7 @@
     {
       "uniqueId": "hhbr-e4e122b971ee99bcadc8e37d122a2f8f",
       "name": "TomasVonKlapper",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3682,7 +3722,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:00:59.443Z"
+        "checkedAt": "2026-10-14T01:14:28.343Z"
       },
       "audit": {
         "passed": 4,
@@ -3721,7 +3761,7 @@
         "party": true,
         "voterTitle": null,
         "voterTitleStatus": "error",
-        "checkedAt": "2026-10-13T16:02:40.368Z"
+        "checkedAt": "2026-10-14T01:16:06.272Z"
       },
       "audit": {
         "passed": 4,
