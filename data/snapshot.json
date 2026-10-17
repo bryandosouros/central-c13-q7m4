@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-10-17T15:40:20.571Z",
+  "generatedAt": "2026-10-17T18:31:40.220Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,11 +64,11 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 95,
-    "systemProfileRequests": 94,
+    "systemRequests": 1,
+    "systemProfileRequests": 0,
     "systemCardRequests": 1,
-    "systemCacheHits": 0,
-    "systemFailures": 2
+    "systemCacheHits": 94,
+    "systemFailures": 1
   },
   "totals": {
     "electors": 94,
@@ -247,7 +247,7 @@
     {
       "uniqueId": "hhbr-409be92eecbb1234ed8c24d010bc9616",
       "name": ":HISE",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -782,7 +782,7 @@
     {
       "uniqueId": "hhbr-cadccb935108064e6958e55d2025ca99",
       "name": "HC",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PCO",
@@ -1849,7 +1849,7 @@
     {
       "uniqueId": "hhbr-1ac5ae8a6feb22edee56601537b3daa4",
       "name": "Nietzsched",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -2137,7 +2137,7 @@
     {
       "uniqueId": "hhbr-951e085bbca7223385522f6fc96b5ef6",
       "name": "Wolfies",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PCO",
@@ -2665,7 +2665,7 @@
     {
       "uniqueId": "hhbr-6b00a34ca629da34b6b070880cbea607",
       "name": "guguinhoHop",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "TFP",
@@ -3667,7 +3667,7 @@
     {
       "uniqueId": "hhbr-83a1d5bf1fbccd009ff8f34a75c013a1",
       "name": "Jorge.Lemaire",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PT",
