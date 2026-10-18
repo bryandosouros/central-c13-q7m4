@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-10-18T18:42:10.147Z",
+  "generatedAt": "2026-10-18T22:26:08.288Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,11 +64,11 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 94,
-    "systemProfileRequests": 93,
+    "systemRequests": 1,
+    "systemProfileRequests": 0,
     "systemCardRequests": 1,
-    "systemCacheHits": 0,
-    "systemFailures": 2
+    "systemCacheHits": 93,
+    "systemFailures": 1
   },
   "totals": {
     "electors": 93,
@@ -946,7 +946,7 @@
     {
       "uniqueId": "hhbr-4bbf5b04ef6f3bfbedf0bede883069a8",
       "name": "Mercadorismo",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -1602,7 +1602,7 @@
     {
       "uniqueId": "hhbr-8dfaa5cd6de01b7440ae1d773eda705e",
       "name": "Hiruko88",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PL",
@@ -1972,7 +1972,7 @@
     {
       "uniqueId": "hhbr-1ac5ae8a6feb22edee56601537b3daa4",
       "name": "Nietzsched",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -2418,7 +2418,7 @@
     {
       "uniqueId": "hhbr-c99d5825520e21407e2d922689d22d16",
       "name": "Chooping!",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PDT",
@@ -2943,7 +2943,7 @@
     {
       "uniqueId": "hhbr-96f36a7814c95b812c1037510742d1fb",
       "name": "MarkinHazz",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3504,7 +3504,7 @@
     {
       "uniqueId": "hhbr-1ceb48fbcc3d17b8c6d92965c2a6b738",
       "name": "bummels!",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PDT",
@@ -3621,7 +3621,7 @@
     {
       "uniqueId": "hhbr-83a1d5bf1fbccd009ff8f34a75c013a1",
       "name": "Jorge.Lemaire",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
