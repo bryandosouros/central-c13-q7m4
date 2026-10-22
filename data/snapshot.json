@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-10-21T23:24:23.881Z",
+  "generatedAt": "2026-10-22T04:48:49.493Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,10 +64,10 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 98,
-    "systemProfileRequests": 97,
+    "systemRequests": 3,
+    "systemProfileRequests": 2,
     "systemCardRequests": 1,
-    "systemCacheHits": 0,
+    "systemCacheHits": 95,
     "systemFailures": 2
   },
   "totals": {
@@ -247,7 +247,7 @@
     {
       "uniqueId": "hhbr-409be92eecbb1234ed8c24d010bc9616",
       "name": ":HISE",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -493,7 +493,7 @@
     {
       "uniqueId": "hhbr-30cf169c7e3691719d63de234721ab6d",
       "name": "CauanDoLol",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -782,7 +782,7 @@
     {
       "uniqueId": "hhbr-cadccb935108064e6958e55d2025ca99",
       "name": "HC",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PCO",
@@ -905,7 +905,7 @@
     {
       "uniqueId": "hhbr-eaf82fb32c3b73a6635fa343677a4655",
       "name": "Mauryy",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "NOVO",
@@ -1108,6 +1108,47 @@
       }
     },
     {
+      "uniqueId": "hhbr-12422db756ca8842bba0303a717762de",
+      "name": "Roseb-",
+      "online": false,
+      "parties": [
+        {
+          "code": "PDT",
+          "label": "Partido Democrático Trabalhista",
+          "side": "favor",
+          "groupId": "g-hhbr-f37b14af8b3161af00844d48bfba6316"
+        }
+      ],
+      "habbo": {
+        "deputy": false,
+        "voterTitle": false
+      },
+      "system": {
+        "status": "ok",
+        "partyCodes": [],
+        "party": false,
+        "voterTitle": null,
+        "voterTitleStatus": "error",
+        "checkedAt": "2026-10-22T04:48:45.734Z"
+      },
+      "audit": {
+        "passed": 1,
+        "total": 5,
+        "failed": [
+          "habboDeputy",
+          "habboVoterTitle",
+          "systemParty"
+        ],
+        "unknown": [
+          "systemVoterTitle"
+        ],
+        "complete": false,
+        "hasPending": true,
+        "hasUnknown": true,
+        "multipleParties": false
+      }
+    },
+    {
       "uniqueId": "hhbr-4b677ffc41ebc753bc9cc656cc4de4c4",
       "name": "Rui.Pimenta",
       "online": false,
@@ -1192,7 +1233,7 @@
     {
       "uniqueId": "hhbr-58a634dbbeb60699864ddda52e6106a8",
       "name": "Shirmenes",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PCO",
@@ -1561,7 +1602,7 @@
     {
       "uniqueId": "hhbr-951e085bbca7223385522f6fc96b5ef6",
       "name": "Wolfies",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PCO",
@@ -1810,7 +1851,7 @@
     {
       "uniqueId": "hhbr-3e4a2fc88a716ff86a5bc3c62cf18216",
       "name": "Atilio",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PT",
@@ -2056,7 +2097,7 @@
     {
       "uniqueId": "hhbr-a4f27e420b60274c9472ce997d891066",
       "name": "lcnjunior",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -2407,47 +2448,6 @@
         "failed": [
           "habboVoterTitle",
           "systemParty"
-        ],
-        "unknown": [
-          "systemVoterTitle"
-        ],
-        "complete": false,
-        "hasPending": true,
-        "hasUnknown": true,
-        "multipleParties": false
-      }
-    },
-    {
-      "uniqueId": "hhbr-6be07d4be8508ca9f3bd6e7400aaf206",
-      "name": "_GoldenCross_",
-      "online": false,
-      "parties": [
-        {
-          "code": "PT",
-          "label": "Partido dos Trabalhadores",
-          "side": "favor",
-          "groupId": "g-hhbr-f616c8d86b07941cfaa260b9d38a4dbb"
-        }
-      ],
-      "habbo": {
-        "deputy": true,
-        "voterTitle": false
-      },
-      "system": {
-        "status": "ok",
-        "partyCodes": [
-          "PT"
-        ],
-        "party": true,
-        "voterTitle": null,
-        "voterTitleStatus": "error",
-        "checkedAt": "2026-10-21T23:21:13.770Z"
-      },
-      "audit": {
-        "passed": 3,
-        "total": 5,
-        "failed": [
-          "habboVoterTitle"
         ],
         "unknown": [
           "systemVoterTitle"
@@ -3070,7 +3070,7 @@
     {
       "uniqueId": "hhbr-73140cf59e87a15375c8d79fdde653a9",
       "name": "marcelocon06",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PT",
@@ -3193,7 +3193,7 @@
     {
       "uniqueId": "hhbr-51e53b94eecfc5222d744bbbe6ed0f48",
       "name": "Nyxalis",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PT",
@@ -3307,6 +3307,44 @@
         ],
         "complete": false,
         "hasPending": true,
+        "hasUnknown": true,
+        "multipleParties": false
+      }
+    },
+    {
+      "uniqueId": "hhbr-3d38a217ebbbc528f4b76e5775689206",
+      "name": "-Hevo-",
+      "online": false,
+      "parties": [
+        {
+          "code": "PCO",
+          "label": "Partido da Causa Operária",
+          "side": "favor",
+          "groupId": "g-hhbr-d01b5ecb3f4c6fc35f62d1e56799ec9c"
+        }
+      ],
+      "habbo": {
+        "deputy": true,
+        "voterTitle": true
+      },
+      "system": {
+        "status": "error",
+        "partyCodes": [],
+        "party": null,
+        "voterTitle": null,
+        "voterTitleStatus": "error",
+        "checkedAt": "2026-10-22T04:48:47.652Z"
+      },
+      "audit": {
+        "passed": 3,
+        "total": 5,
+        "failed": [],
+        "unknown": [
+          "systemParty",
+          "systemVoterTitle"
+        ],
+        "complete": false,
+        "hasPending": false,
         "hasUnknown": true,
         "multipleParties": false
       }
@@ -3553,7 +3591,7 @@
     {
       "uniqueId": "hhbr-b9ca14f343a537271c655269d9e88c8c",
       "name": "Bagheera",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PDT",
@@ -3709,7 +3747,7 @@
     {
       "uniqueId": "hhbr-93cc4854a6bef21adefa07d31457997a",
       "name": "HudsonSykes",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PDT",
@@ -3826,7 +3864,7 @@
     {
       "uniqueId": "hhbr-7d02c5806d576be6c691437f457111df",
       "name": "MalopRRN",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PDT",
@@ -3965,45 +4003,6 @@
         "voterTitle": null,
         "voterTitleStatus": "error",
         "checkedAt": "2026-10-21T23:23:29.085Z"
-      },
-      "audit": {
-        "passed": 4,
-        "total": 5,
-        "failed": [],
-        "unknown": [
-          "systemVoterTitle"
-        ],
-        "complete": false,
-        "hasPending": false,
-        "hasUnknown": true,
-        "multipleParties": false
-      }
-    },
-    {
-      "uniqueId": "hhbr-9220edaf0a4960945994de9e285fdf91",
-      "name": "willglywer10",
-      "online": true,
-      "parties": [
-        {
-          "code": "PDT",
-          "label": "Partido Democrático Trabalhista",
-          "side": "favor",
-          "groupId": "g-hhbr-f37b14af8b3161af00844d48bfba6316"
-        }
-      ],
-      "habbo": {
-        "deputy": true,
-        "voterTitle": true
-      },
-      "system": {
-        "status": "ok",
-        "partyCodes": [
-          "PDT"
-        ],
-        "party": true,
-        "voterTitle": null,
-        "voterTitleStatus": "error",
-        "checkedAt": "2026-10-21T23:21:35.372Z"
       },
       "audit": {
         "passed": 4,
