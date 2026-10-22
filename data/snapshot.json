@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-10-22T11:58:14.337Z",
+  "generatedAt": "2026-10-22T17:12:01.118Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,19 +64,19 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 98,
-    "systemProfileRequests": 97,
+    "systemRequests": 2,
+    "systemProfileRequests": 1,
     "systemCardRequests": 1,
-    "systemCacheHits": 0,
-    "systemFailures": 2
+    "systemCacheHits": 97,
+    "systemFailures": 1
   },
   "totals": {
-    "electors": 97,
+    "electors": 98,
     "complete": 0,
-    "pending": 80,
-    "unknown": 97,
+    "pending": 81,
+    "unknown": 98,
     "multipleParties": 2,
-    "favor": 68,
+    "favor": 69,
     "opposition": 29
   },
   "rows": [
@@ -165,7 +165,7 @@
     {
       "uniqueId": "hhbr-8fe668f4d60a6a19576ecf37b18acff3",
       "name": ",Sar.",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -493,7 +493,7 @@
     {
       "uniqueId": "hhbr-30cf169c7e3691719d63de234721ab6d",
       "name": "CauanDoLol",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -618,7 +618,7 @@
     {
       "uniqueId": "hhbr-f0a73231e8e8c063d0df41a672cbb29c",
       "name": "Dr.Overcome",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -1171,6 +1171,47 @@
         "voterTitle": null,
         "voterTitleStatus": "error",
         "checkedAt": "2026-10-22T11:55:59.490Z"
+      },
+      "audit": {
+        "passed": 1,
+        "total": 5,
+        "failed": [
+          "habboDeputy",
+          "habboVoterTitle",
+          "systemParty"
+        ],
+        "unknown": [
+          "systemVoterTitle"
+        ],
+        "complete": false,
+        "hasPending": true,
+        "hasUnknown": true,
+        "multipleParties": false
+      }
+    },
+    {
+      "uniqueId": "hhbr-ca7c5fbe50d32bdfeabce4abf5dce189",
+      "name": "satxn",
+      "online": false,
+      "parties": [
+        {
+          "code": "PCO",
+          "label": "Partido da Causa Operária",
+          "side": "favor",
+          "groupId": "g-hhbr-d01b5ecb3f4c6fc35f62d1e56799ec9c"
+        }
+      ],
+      "habbo": {
+        "deputy": false,
+        "voterTitle": false
+      },
+      "system": {
+        "status": "ok",
+        "partyCodes": [],
+        "party": false,
+        "voterTitle": null,
+        "voterTitleStatus": "error",
+        "checkedAt": "2026-10-22T17:11:59.041Z"
       },
       "audit": {
         "passed": 1,
@@ -1811,7 +1852,7 @@
     {
       "uniqueId": "hhbr-4e5c62e387cef906185f5cd5170038b2",
       "name": ".:Dr.West.:",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -2219,7 +2260,7 @@
     {
       "uniqueId": "hhbr-1ac5ae8a6feb22edee56601537b3daa4",
       "name": "Nietzsched",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -2824,7 +2865,7 @@
     {
       "uniqueId": "hhbr-8379472228f5065543b48bc03ae34e51",
       "name": "EmanuelFNC.",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
