@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-10-24T18:51:27.971Z",
+  "generatedAt": "2026-10-24T22:29:12.192Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,11 +64,11 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 98,
-    "systemProfileRequests": 97,
+    "systemRequests": 1,
+    "systemProfileRequests": 0,
     "systemCardRequests": 1,
-    "systemCacheHits": 0,
-    "systemFailures": 2
+    "systemCacheHits": 97,
+    "systemFailures": 1
   },
   "totals": {
     "electors": 97,
@@ -206,7 +206,7 @@
     {
       "uniqueId": "hhbr-1737911ba1295d0e99182f61405c680b",
       "name": ":Goldboy.",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -493,7 +493,7 @@
     {
       "uniqueId": "hhbr-30cf169c7e3691719d63de234721ab6d",
       "name": "CauanDoLol",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -2383,7 +2383,7 @@
     {
       "uniqueId": "hhbr-bc74003a81318e1b5924733d3d266af1",
       "name": "Yayay2.0",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PCO",
@@ -3151,7 +3151,7 @@
     {
       "uniqueId": "hhbr-96f36a7814c95b812c1037510742d1fb",
       "name": "MarkinHazz",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3552,7 +3552,7 @@
     {
       "uniqueId": "hhbr-b9ca14f343a537271c655269d9e88c8c",
       "name": "Bagheera",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PDT",
@@ -3747,7 +3747,7 @@
     {
       "uniqueId": "hhbr-83a1d5bf1fbccd009ff8f34a75c013a1",
       "name": "Jorge.Lemaire",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
