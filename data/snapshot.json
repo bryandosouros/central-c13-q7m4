@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-10-28T16:42:26.847Z",
+  "generatedAt": "2026-10-28T22:36:31.329Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,19 +64,19 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 98,
-    "systemProfileRequests": 97,
+    "systemRequests": 2,
+    "systemProfileRequests": 1,
     "systemCardRequests": 1,
-    "systemCacheHits": 0,
-    "systemFailures": 2
+    "systemCacheHits": 97,
+    "systemFailures": 1
   },
   "totals": {
-    "electors": 97,
+    "electors": 98,
     "complete": 0,
-    "pending": 80,
-    "unknown": 97,
+    "pending": 81,
+    "unknown": 98,
     "multipleParties": 3,
-    "favor": 65,
+    "favor": 66,
     "opposition": 32
   },
   "rows": [
@@ -165,7 +165,7 @@
     {
       "uniqueId": "hhbr-8fe668f4d60a6a19576ecf37b18acff3",
       "name": ",Sar.",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -206,7 +206,7 @@
     {
       "uniqueId": "hhbr-1737911ba1295d0e99182f61405c680b",
       "name": ":Goldboy.",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -905,7 +905,7 @@
     {
       "uniqueId": "hhbr-ff2ffe2ac12c66fe27030bc68b932e01",
       "name": "Justisseiro",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -925,6 +925,47 @@
         "voterTitle": null,
         "voterTitleStatus": "error",
         "checkedAt": "2026-10-28T16:42:13.287Z"
+      },
+      "audit": {
+        "passed": 1,
+        "total": 5,
+        "failed": [
+          "habboDeputy",
+          "habboVoterTitle",
+          "systemParty"
+        ],
+        "unknown": [
+          "systemVoterTitle"
+        ],
+        "complete": false,
+        "hasPending": true,
+        "hasUnknown": true,
+        "multipleParties": false
+      }
+    },
+    {
+      "uniqueId": "hhbr-e2f070f0510f7ccec4495fe0bc780219",
+      "name": "ManuPellegri",
+      "online": false,
+      "parties": [
+        {
+          "code": "NOVO",
+          "label": "Partido Novo",
+          "side": "favor",
+          "groupId": "g-hhbr-eba32719e453f0a1edf62873024720f2"
+        }
+      ],
+      "habbo": {
+        "deputy": false,
+        "voterTitle": false
+      },
+      "system": {
+        "status": "not_found",
+        "partyCodes": [],
+        "party": false,
+        "voterTitle": null,
+        "voterTitleStatus": "error",
+        "checkedAt": "2026-10-28T22:36:29.398Z"
       },
       "audit": {
         "passed": 1,
@@ -1233,7 +1274,7 @@
     {
       "uniqueId": "hhbr-50678ae00725c702d4969612a36b6157",
       "name": "SerGuilherme-",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PCO",
@@ -1315,7 +1356,7 @@
     {
       "uniqueId": "hhbr-ec82f0917acc5721eb605d2d5e25c464",
       "name": "Sir,Pessoto",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -2017,7 +2058,7 @@
     {
       "uniqueId": "hhbr-a4f27e420b60274c9472ce997d891066",
       "name": "lcnjunior",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -2099,7 +2140,7 @@
     {
       "uniqueId": "hhbr-1ac5ae8a6feb22edee56601537b3daa4",
       "name": "Nietzsched",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -2223,7 +2264,7 @@
     {
       "uniqueId": "hhbr-22d8bceab463e135e45c5b35bc1cbcdc",
       "name": "ruan2211",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -2345,7 +2386,7 @@
     {
       "uniqueId": "hhbr-e955985a45635a8b944c0ff59b27bcb4",
       "name": "_Wixor",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "NOVO",
@@ -2474,7 +2515,7 @@
     {
       "uniqueId": "hhbr-60697b07c08e1828a434bb2387d88801",
       "name": "Aspasx",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -2755,7 +2796,7 @@
     {
       "uniqueId": "hhbr-8379472228f5065543b48bc03ae34e51",
       "name": "EmanuelFNC.",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -2796,7 +2837,7 @@
     {
       "uniqueId": "hhbr-494ec2d38020636a312e8da7003fa77e",
       "name": "fabio22500",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PT",
@@ -2878,7 +2919,7 @@
     {
       "uniqueId": "hhbr-e0a84584632320bb68c0a931b5248a24",
       "name": "gatinhagabi",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
@@ -3120,7 +3161,7 @@
     {
       "uniqueId": "hhbr-61c16ce9d6728b0d421f76a8bd7dfb10",
       "name": "Kings_Suricatin",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3447,7 +3488,7 @@
     {
       "uniqueId": "hhbr-366e25a53d8712b44af02f7784a4caab",
       "name": ",Yrsa",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
@@ -3681,7 +3722,7 @@
     {
       "uniqueId": "hhbr-1ceb48fbcc3d17b8c6d92965c2a6b738",
       "name": "bummels!",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3876,7 +3917,7 @@
     {
       "uniqueId": "hhbr-dce6ee2dc6e6c57123566247ac3fc180",
       "name": "Nected",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
