@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-11-01T13:30:02.590Z",
+  "generatedAt": "2026-11-01T18:57:01.225Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,19 +64,19 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 98,
-    "systemProfileRequests": 97,
+    "systemRequests": 3,
+    "systemProfileRequests": 2,
     "systemCardRequests": 1,
-    "systemCacheHits": 0,
-    "systemFailures": 2
+    "systemCacheHits": 97,
+    "systemFailures": 3
   },
   "totals": {
-    "electors": 97,
+    "electors": 99,
     "complete": 0,
-    "pending": 97,
-    "unknown": 97,
+    "pending": 99,
+    "unknown": 99,
     "multipleParties": 4,
-    "favor": 66,
+    "favor": 68,
     "opposition": 32
   },
   "rows": [
@@ -534,7 +534,7 @@
     {
       "uniqueId": "hhbr-30cf169c7e3691719d63de234721ab6d",
       "name": "CauanDoLol",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -618,7 +618,7 @@
     {
       "uniqueId": "hhbr-2526180d30834270480ef8d92fecfab6",
       "name": "danil6991",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -823,7 +823,7 @@
     {
       "uniqueId": "hhbr-cadccb935108064e6958e55d2025ca99",
       "name": "HC",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PCO",
@@ -1643,6 +1643,88 @@
       }
     },
     {
+      "uniqueId": "hhbr-f8225b72ce7384a0dfd46eec67a76376",
+      "name": "MCcloves",
+      "online": false,
+      "parties": [
+        {
+          "code": "PT",
+          "label": "Partido dos Trabalhadores",
+          "side": "favor",
+          "groupId": "g-hhbr-f616c8d86b07941cfaa260b9d38a4dbb"
+        }
+      ],
+      "habbo": {
+        "deputy": false,
+        "voterTitle": false
+      },
+      "system": {
+        "status": "error",
+        "partyCodes": [],
+        "party": null,
+        "voterTitle": null,
+        "voterTitleStatus": "error",
+        "checkedAt": "2026-11-01T18:56:57.078Z"
+      },
+      "audit": {
+        "passed": 1,
+        "total": 5,
+        "failed": [
+          "habboDeputy",
+          "habboVoterTitle"
+        ],
+        "unknown": [
+          "systemParty",
+          "systemVoterTitle"
+        ],
+        "complete": false,
+        "hasPending": true,
+        "hasUnknown": true,
+        "multipleParties": false
+      }
+    },
+    {
+      "uniqueId": "hhbr-fdea18d3732790ca99a835772114a544",
+      "name": "YoungBee",
+      "online": false,
+      "parties": [
+        {
+          "code": "PT",
+          "label": "Partido dos Trabalhadores",
+          "side": "favor",
+          "groupId": "g-hhbr-f616c8d86b07941cfaa260b9d38a4dbb"
+        }
+      ],
+      "habbo": {
+        "deputy": false,
+        "voterTitle": false
+      },
+      "system": {
+        "status": "error",
+        "partyCodes": [],
+        "party": null,
+        "voterTitle": null,
+        "voterTitleStatus": "error",
+        "checkedAt": "2026-11-01T18:56:59.117Z"
+      },
+      "audit": {
+        "passed": 1,
+        "total": 5,
+        "failed": [
+          "habboDeputy",
+          "habboVoterTitle"
+        ],
+        "unknown": [
+          "systemParty",
+          "systemVoterTitle"
+        ],
+        "complete": false,
+        "hasPending": true,
+        "hasUnknown": true,
+        "multipleParties": false
+      }
+    },
+    {
       "uniqueId": "hhbr-8dfaa5cd6de01b7440ae1d773eda705e",
       "name": "Hiruko88",
       "online": false,
@@ -2219,7 +2301,7 @@
     {
       "uniqueId": "hhbr-8379472228f5065543b48bc03ae34e51",
       "name": "EmanuelFNC.",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -2711,7 +2793,7 @@
     {
       "uniqueId": "hhbr-22d8bceab463e135e45c5b35bc1cbcdc",
       "name": "ruan2211",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -3383,7 +3465,7 @@
     {
       "uniqueId": "hhbr-b07c3aa024043cdfe61e01dc66f70b44",
       "name": "DuuhCb",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -3629,7 +3711,7 @@
     {
       "uniqueId": "hhbr-7d02c5806d576be6c691437f457111df",
       "name": "MalopRRN",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
