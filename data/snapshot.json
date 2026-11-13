@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-11-13T17:48:37.993Z",
+  "generatedAt": "2026-11-13T23:35:43.220Z",
   "refreshPolicy": {
     "habbo": "2 horas",
     "system": "6 horas",
@@ -64,11 +64,11 @@
   ],
   "requestMetrics": {
     "habboRequests": 9,
-    "systemRequests": 94,
-    "systemProfileRequests": 93,
+    "systemRequests": 1,
+    "systemProfileRequests": 0,
     "systemCardRequests": 1,
-    "systemCacheHits": 0,
-    "systemFailures": 2
+    "systemCacheHits": 93,
+    "systemFailures": 1
   },
   "totals": {
     "electors": 93,
@@ -124,7 +124,7 @@
     {
       "uniqueId": "hhbr-1737911ba1295d0e99182f61405c680b",
       "name": ":Goldboy.",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "NOVO",
@@ -247,7 +247,7 @@
     {
       "uniqueId": "hhbr-306a1cb270dc5b194d5e26ef4f688e9d",
       "name": "Academic_Lau",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -1476,7 +1476,7 @@
     {
       "uniqueId": "hhbr-0b86651f07a822a6bc8777eec4923b2c",
       "name": "!:MC.Jonathan:!",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -1802,7 +1802,7 @@
     {
       "uniqueId": "hhbr-a598457ebac5fb407fe7a14c64fdb053",
       "name": "Liipeh",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PL",
@@ -1842,7 +1842,7 @@
     {
       "uniqueId": "hhbr-1801558eda3fe736fa5495317b77c872",
       "name": "lucas18241",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "UB",
@@ -2042,7 +2042,7 @@
     {
       "uniqueId": "hhbr-5128bf42c7d3a6fda6f17d92c6035430",
       "name": "Leonel.Correa",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -2331,7 +2331,7 @@
     {
       "uniqueId": "hhbr-b4fec3da852fec7e0604ee44a33ab85c",
       "name": "beefee",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "UB",
@@ -2530,7 +2530,7 @@
     {
       "uniqueId": "hhbr-2498985c8da8bd62877fac8e1866f51a",
       "name": "Esgotado",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
@@ -2694,7 +2694,7 @@
     {
       "uniqueId": "hhbr-8dfaa5cd6de01b7440ae1d773eda705e",
       "name": "Hiruko88",
-      "online": true,
+      "online": false,
       "parties": [
         {
           "code": "PL",
@@ -2735,7 +2735,7 @@
     {
       "uniqueId": "hhbr-93cc4854a6bef21adefa07d31457997a",
       "name": "HudsonSykes",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -2897,7 +2897,7 @@
     {
       "uniqueId": "hhbr-51e53b94eecfc5222d744bbbe6ed0f48",
       "name": "Nyxalis",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
@@ -3136,7 +3136,7 @@
     {
       "uniqueId": "hhbr-280bf04be708d686c60ded1bb2f9eeab",
       "name": "bryandosouros",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PCO",
@@ -3181,7 +3181,7 @@
     {
       "uniqueId": "hhbr-6be07d4be8508ca9f3bd6e7400aaf206",
       "name": "_GoldenCross_",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
@@ -3259,7 +3259,7 @@
     {
       "uniqueId": "hhbr-61c16ce9d6728b0d421f76a8bd7dfb10",
       "name": "!Kings",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3337,7 +3337,7 @@
     {
       "uniqueId": "hhbr-629caa293b83bf48aea2b8f27c7ea364",
       "name": "Chocotone",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
@@ -3376,7 +3376,7 @@
     {
       "uniqueId": "hhbr-dfe34212a052402040f79b4bf7f52494",
       "name": "darahol",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3493,7 +3493,7 @@
     {
       "uniqueId": "hhbr-de1103ed9887c05365b9a9f67fe7f5d3",
       "name": "Maceyo",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3532,7 +3532,7 @@
     {
       "uniqueId": "hhbr-7d02c5806d576be6c691437f457111df",
       "name": "MalopRRN",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
@@ -3610,7 +3610,7 @@
     {
       "uniqueId": "hhbr-73140cf59e87a15375c8d79fdde653a9",
       "name": "marcelocon06",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PT",
@@ -3688,7 +3688,7 @@
     {
       "uniqueId": "hhbr-dce6ee2dc6e6c57123566247ac3fc180",
       "name": "Nected",
-      "online": false,
+      "online": true,
       "parties": [
         {
           "code": "PDT",
